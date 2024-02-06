@@ -59,3 +59,8 @@ Branch Source plugin asks for Jenkins version `2.401.3`. My guess is that there 
 to see if I can downgrade Jenkins and get it to work. Otherwise, I'm going to become irritated. 
 
 ![repository-name-problem](images/repository-name-will-not-populate.png)
+
+Okay, so the conclusion is that the ShitBucket Branch Source plugin doesn't work. 
+
+I've tried it in GitHub and lo, it works. Let's check now to see if we can get a PR to trigger a scan and then create a
+PR "branch" pipeline. 
