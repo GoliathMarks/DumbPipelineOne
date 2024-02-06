@@ -9,7 +9,7 @@ pipeline {
             ],
             causeString: 'Triggered on $ARTIFACT_NAME',
             regexpFilterText: '$EVENT_NAME-$ARTIFACT_NAME',
-            regexpFilterExpression: 'storage\.afterCreate-SuperPackage'
+            regexpFilterExpression: 'storage*'
         )
     }
 
